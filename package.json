@@ -1,0 +1,19 @@
+{
+  "name": "esidom_server",
+  "version": "1.0.0",
+  "description": "Esidom server",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKAVALT-io/esidom_server.git"
+  },
+  "author": "skavalt.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SKAVALT-io/esidom_server/issues"
+  },
+  "homepage": "https://github.com/SKAVALT-io/esidom_server#readme"
+}
