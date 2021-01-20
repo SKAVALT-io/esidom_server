@@ -4,7 +4,7 @@
   "description": "Esidom server",
   "main": "src/index.ts",
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "tsc": "tsc",
     "start": "node dist/index.js"
   },
