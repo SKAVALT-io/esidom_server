@@ -16,3 +16,7 @@ test('should return false given external link', () => {
 test('should return true given internal link', () => {
   expect(isInternalLink('/some-page')).toBe(true)
 })
+
+test('should always fail', () => {
+    expect(isInternalLink('/some-page')).toBe(false)
+  })
