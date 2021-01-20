@@ -1,8 +1,8 @@
 export function fizzBuzz(n: number): string {
-    let output = "";
-    for (let i = 1; i <= n; i++) {
+    let output = '';
+    for (let i = 1; i <= n; i += 1) {
         if (i % 5 && i % 3) {
-            output += i + ' ';
+            output += `${i} `;
         }
         if (i % 3 === 0) {
             output += 'Fizz ';
@@ -14,4 +14,4 @@ export function fizzBuzz(n: number): string {
     return output;
 }
 
-export const isInternalLink = (link: string) => /^\/(?!\/)/.test(link)
+export const isInternalLink = (link: string) => /^\/(?!\/)/.test(link);
