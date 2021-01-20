@@ -13,3 +13,5 @@ export function fizzBuzz(n: number): string {
     }
     return output;
 }
+
+export const isInternalLink = (link: string) => /^\/(?!\/)/.test(link)
